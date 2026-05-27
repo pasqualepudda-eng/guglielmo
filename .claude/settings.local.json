@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.fareappalti.it)",
+      "WebFetch(domain:www.aleandri.net)",
+      "WebFetch(domain:ifmnetwork.it)",
+      "WebFetch(domain:www.servizieprogetti.it)",
+      "WebFetch(domain:www.telemat.it)",
+      "Bash(mkdir -p \"/Users/pasqualelevelapp/Desktop/sito guglielmo/css\" \"/Users/pasqualelevelapp/Desktop/sito guglielmo/js\")",
+      "WebFetch(domain:gare.it)",
+      "WebFetch(domain:web.archive.org)",
+      "Bash(awk '{print $NF, $5}')",
+      "Bash(xargs sed -i '' 's/\\\\[inserire email\\\\]/guglielmo.barretta@projectmanagementadvisors.it/g; s/\\\\[inserire numero\\\\]/388 875 4656/g')"
+    ],
+    "additionalDirectories": [
+      "/Users/pasqualelevelapp/Desktop/sito guglielmo"
+    ]
+  }
+}
