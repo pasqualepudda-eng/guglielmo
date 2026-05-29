@@ -10,7 +10,12 @@
       "WebFetch(domain:gare.it)",
       "WebFetch(domain:web.archive.org)",
       "Bash(awk '{print $NF, $5}')",
-      "Bash(xargs sed -i '' 's/\\\\[inserire email\\\\]/guglielmo.barretta@projectmanagementadvisors.it/g; s/\\\\[inserire numero\\\\]/388 875 4656/g')"
+      "Bash(xargs sed -i '' 's/\\\\[inserire email\\\\]/guglielmo.barretta@projectmanagementadvisors.it/g; s/\\\\[inserire numero\\\\]/388 875 4656/g')",
+      "Bash(sed -i '' 's/Prima Gara Guidata da/Prima Gara da/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")",
+      "Bash(sed -i '' 's/<div class=\"stats-bar__num\">€99<\\\\/div>/<div class=\"stats-bar__num\">€199<\\\\/div>/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")",
+      "Bash(sed -i '' 's/<div class=\"hero__float-num\">Da €99<\\\\/div>/<div class=\"hero__float-num\">Da €199<\\\\/div>/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")",
+      "Bash(sed -i '' 's/Da €99 a €150/Da €199 + IVA/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")",
+      "Bash(sed -i '' 's/una tantum · gratuito con pacchetto PRO/una tantum · + IVA/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")"
     ],
     "additionalDirectories": [
       "/Users/pasqualelevelapp/Desktop/sito guglielmo"
