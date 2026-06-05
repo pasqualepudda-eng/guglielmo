@@ -961,13 +961,86 @@ h3 { font-weight: 800; letter-spacing: -.04em; line-height: 1.2; margin-bottom: 
   .stats-bar__item:nth-child(4) { border-top: 1px solid var(--gray-200); }
   .stats-bar__item:last-child { border-right: none; }
 }
+@media (max-width: 768px) {
+  /* Sidebar layout su contatti e sezioni con colonne fisse */
+  .contact-sidebar-layout { grid-template-columns: 1fr !important; }
+
+  /* All Inclusive card: rimuove span e ripristina layout verticale */
+  .all-inclusive-card {
+    grid-column: span 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 28px !important;
+  }
+
+  /* Griglie 2-colonne inline che collassano a 1 colonna */
+  .mob-stack { grid-template-columns: 1fr !important; }
+
+  /* Privacy grid diritti */
+  .rights-grid { grid-template-columns: 1fr !important; }
+}
+
 @media (max-width: 640px) {
-  .container { padding: 0 20px; }
+  .container { padding: 0 16px; }
+
+  /* Layout principali */
   .sectors-grid, .sectors-grid--3, .pricing-grid { grid-template-columns: 1fr; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .mob-stack { grid-template-columns: 1fr !important; }
+  .all-inclusive-card {
+    grid-column: span 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  /* Tipografia */
+  .hero__title    { font-size: 2.75rem; letter-spacing: -.04em; }
+  .page-hero__title { font-size: clamp(2rem, 9vw, 3rem); }
+  .cta-banner__title { font-size: 2rem; }
+  h2 { font-size: clamp(1.5rem, 6vw, 2rem); }
+
+  /* Spaziature sezioni */
+  .section    { padding: 60px 0; }
+  .page-hero  { padding: 80px 0 44px; }
+  .cta-banner { padding: 72px 0; }
+  .hero__left { padding: 96px 16px 40px; }
+
+  /* Form */
   .form-row { grid-template-columns: 1fr; }
-  .cta-banner__actions { flex-direction: column; align-items: center; }
-  .hero__left { padding: 96px 20px 40px; }
+
+  /* Pulsanti CTA */
+  .cta-banner__actions { flex-direction: column; align-items: stretch; }
+  .cta-banner__actions .btn { text-align: center; justify-content: center; }
+
+  /* Stats bar: 2 colonne su mobile */
+  .stats-bar__inner { grid-template-columns: repeat(2,1fr); }
+
+  /* Process timeline */
   .process { grid-template-columns: 1fr; }
+  .process-v { max-width: 100%; }
+  .process-v__step { gap: 16px; }
+  .process-v__content { padding-top: 4px; }
+
+  /* Cards */
+  .card { padding: 24px 18px; }
+  .pricing-card { padding: 28px 20px; }
+  .guarantee-box { padding: 24px 20px; }
+  .page-hero__breadcrumb { font-size: .75rem; }
+
+  /* Griglia settori */
+  .sectors-grid--3 { grid-template-columns: 1fr; }
+
+  /* Footer */
   .footer__grid { grid-template-columns: 1fr; }
+  .footer__bottom { flex-direction: column; gap: 12px; text-align: center; }
+  .footer__bottom-links { justify-content: center; flex-wrap: wrap; }
+
+  /* Nav mobile migliorato */
+  .nav__logo-tagline { font-size: .55rem; }
+
+  /* Sezione hero destra */
+  .hero__right { height: 340px; }
+
+  /* Breadcrumb */
+  .page-hero__breadcrumb svg { width: 14px; height: 14px; }
 }
