@@ -15,7 +15,11 @@
       "Bash(sed -i '' 's/<div class=\"stats-bar__num\">€99<\\\\/div>/<div class=\"stats-bar__num\">€199<\\\\/div>/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")",
       "Bash(sed -i '' 's/<div class=\"hero__float-num\">Da €99<\\\\/div>/<div class=\"hero__float-num\">Da €199<\\\\/div>/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")",
       "Bash(sed -i '' 's/Da €99 a €150/Da €199 + IVA/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")",
-      "Bash(sed -i '' 's/una tantum · gratuito con pacchetto PRO/una tantum · + IVA/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")"
+      "Bash(sed -i '' 's/una tantum · gratuito con pacchetto PRO/una tantum · + IVA/g' \"/Users/pasqualelevelapp/Desktop/sito guglielmo/index.html\")",
+      "Bash(cat robots.txt)",
+      "Bash(cat sitemap.xml)",
+      "Bash(python3 .seo_inject.py)",
+      "Bash(python3 -)"
     ],
     "additionalDirectories": [
       "/Users/pasqualelevelapp/Desktop/sito guglielmo"
