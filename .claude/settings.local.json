@@ -22,10 +22,32 @@
       "Bash(python3 -)",
       "Bash(grep -rIn \"@\" --include=\"*.html\" -E \"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}\" \"/Users/pasqualelevelapp/Desktop/sito guglielmo\")",
       "Bash(grep -ioE \"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}\")",
-      "Bash(grep -rIln -E \"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}\" . --exclude-dir=.git)"
+      "Bash(grep -rIln -E \"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}\" . --exclude-dir=.git)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(which chromium-cli *)",
+      "Read(//private/tmp/claude-501/bundled-skills/2.1.168/**)",
+      "Bash(pip3 show *)",
+      "Bash(python3 -c \"import playwright\")",
+      "Bash(npx --yes playwright --version)",
+      "Bash(curl -s http://localhost:8765/blog.html)",
+      "Bash(open \"http://localhost:8765/blog.html\")",
+      "Bash(pkill -f \"http.server 8765\")",
+      "Bash(open \"http://localhost:8765/dlgs-36-2023-guida-imprese-facility.html\")",
+      "Bash(lsof -ti:8765)",
+      "Bash(xargs kill -9)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{url_effective}\\\\n\" -L \"https://source.unsplash.com/1600x900/?office,cleaning\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" -L \"https://picsum.photos/1600/900\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80\")",
+      "Bash(open \"http://localhost:8765/cam-2026-criteri-ambientali-minimi.html\")",
+      "Bash(curl -s http://localhost:8765/cam-2026-criteri-ambientali-minimi.html)",
+      "Bash(lsof -ti:8765 | xargs kill -9 2>/dev/null; rm -rf /tmp/unsplash_check; echo done)",
+      "Bash(perl -i -pe 's{^\\(\\\\s*<a href=\"chi-siamo\\\\.html\" class=\"nav__link\">Chi Siamo</a>\\)}{        <a href=\"blog.html\" class=\"nav__link\">Blog</a>\\\\n$1}' *.html)",
+      "Bash(perl -i -pe 's{^\\(\\\\s*<a href=\"faq\\\\.html\"\\\\s+class=\"nav__mobile-link\">FAQ</a>\\)}{  <a href=\"blog.html\"          class=\"nav__mobile-link\">Blog</a>\\\\n$1}' *.html)"
     ],
     "additionalDirectories": [
-      "/Users/pasqualelevelapp/Desktop/sito guglielmo"
+      "/Users/pasqualelevelapp/Desktop/sito guglielmo",
+      "/private/tmp/unsplash_check"
     ]
   }
 }
