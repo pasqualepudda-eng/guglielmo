@@ -19,7 +19,10 @@
       "Bash(cat robots.txt)",
       "Bash(cat sitemap.xml)",
       "Bash(python3 .seo_inject.py)",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(grep -rIn \"@\" --include=\"*.html\" -E \"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}\" \"/Users/pasqualelevelapp/Desktop/sito guglielmo\")",
+      "Bash(grep -ioE \"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}\")",
+      "Bash(grep -rIln -E \"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}\" . --exclude-dir=.git)"
     ],
     "additionalDirectories": [
       "/Users/pasqualelevelapp/Desktop/sito guglielmo"
