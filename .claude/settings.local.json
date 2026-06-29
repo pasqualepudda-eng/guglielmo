@@ -43,7 +43,10 @@
       "Bash(curl -s http://localhost:8765/cam-2026-criteri-ambientali-minimi.html)",
       "Bash(lsof -ti:8765 | xargs kill -9 2>/dev/null; rm -rf /tmp/unsplash_check; echo done)",
       "Bash(perl -i -pe 's{^\\(\\\\s*<a href=\"chi-siamo\\\\.html\" class=\"nav__link\">Chi Siamo</a>\\)}{        <a href=\"blog.html\" class=\"nav__link\">Blog</a>\\\\n$1}' *.html)",
-      "Bash(perl -i -pe 's{^\\(\\\\s*<a href=\"faq\\\\.html\"\\\\s+class=\"nav__mobile-link\">FAQ</a>\\)}{  <a href=\"blog.html\"          class=\"nav__mobile-link\">Blog</a>\\\\n$1}' *.html)"
+      "Bash(perl -i -pe 's{^\\(\\\\s*<a href=\"faq\\\\.html\"\\\\s+class=\"nav__mobile-link\">FAQ</a>\\)}{  <a href=\"blog.html\"          class=\"nav__mobile-link\">Blog</a>\\\\n$1}' *.html)",
+      "Bash(python3)",
+      "Bash(npx --yes chromium-cli --help)",
+      "Bash(node -e \"require.resolve\\('playwright'\\)\")"
     ],
     "additionalDirectories": [
       "/Users/pasqualelevelapp/Desktop/sito guglielmo",
