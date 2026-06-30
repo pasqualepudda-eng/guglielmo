@@ -46,7 +46,17 @@
       "Bash(perl -i -pe 's{^\\(\\\\s*<a href=\"faq\\\\.html\"\\\\s+class=\"nav__mobile-link\">FAQ</a>\\)}{  <a href=\"blog.html\"          class=\"nav__mobile-link\">Blog</a>\\\\n$1}' *.html)",
       "Bash(python3)",
       "Bash(npx --yes chromium-cli --help)",
-      "Bash(node -e \"require.resolve\\('playwright'\\)\")"
+      "Bash(node -e \"require.resolve\\('playwright'\\)\")",
+      "Bash(python3 -c ' *)",
+      "Bash(node verify_embed.js)",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" \"https://www.instagram.com/p/DZ91j_3Dh7c/\")",
+      "Bash(curl -s -D - -o /tmp/ig_test.html -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0 Safari/537.36\" \"https://www.instagram.com/p/DZ91j_3Dh7c/\")",
+      "Bash(node verify_cards.js)",
+      "Bash(pip3 install *)",
+      "Bash(mkdir -p \"/Users/pasqualelevelapp/Desktop/SITI WEB/sito guglielmo/videos/social\")",
+      "Bash(/Users/pasqualelevelapp/Library/Python/3.9/bin/yt-dlp --no-warnings -o 'videos/social/%\\(id\\)s.%\\(ext\\)s' --write-thumbnail --convert-thumbnails jpg https://www.instagram.com/p/DZ91j_3Dh7c/ https://www.instagram.com/p/DaAhKIyEVI6/ https://www.instagram.com/p/DaDyhy7Dvm0/ https://www.instagram.com/p/DaFqr-aApTr/ https://www.instagram.com/p/DaFuIPDDqDw/ https://www.instagram.com/p/DaIVa_WDEDT/)",
+      "Bash(/Users/pasqualelevelapp/Library/Python/3.9/bin/yt-dlp --no-warnings --cookies-from-browser safari -o 'videos/social/%\\(id\\)s.%\\(ext\\)s' --write-thumbnail --convert-thumbnails jpg https://www.instagram.com/p/DZ91j_3Dh7c/ https://www.instagram.com/p/DaAhKIyEVI6/ https://www.instagram.com/p/DaDyhy7Dvm0/ https://www.instagram.com/p/DaFqr-aApTr/ https://www.instagram.com/p/DaFuIPDDqDw/ https://www.instagram.com/p/DaIVa_WDEDT/)",
+      "Bash(/Users/pasqualelevelapp/Library/Python/3.9/bin/yt-dlp --no-warnings --cookies-from-browser chrome -o 'videos/social/%\\(id\\)s.%\\(ext\\)s' --write-thumbnail --convert-thumbnails jpg https://www.instagram.com/p/DZ91j_3Dh7c/ https://www.instagram.com/p/DaAhKIyEVI6/ https://www.instagram.com/p/DaDyhy7Dvm0/ https://www.instagram.com/p/DaFqr-aApTr/ https://www.instagram.com/p/DaFuIPDDqDw/ https://www.instagram.com/p/DaIVa_WDEDT/)"
     ],
     "additionalDirectories": [
       "/Users/pasqualelevelapp/Desktop/sito guglielmo",
